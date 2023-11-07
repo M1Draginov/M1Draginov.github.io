@@ -1,0 +1,267 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1536px;
+    max-height: 703px;
+    margin: 0 auto; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #271b29;
+}
+
+header>.logo,
+.logIn-Registration {
+    padding: 0 10px 0 10px;
+    margin-top: 16px;
+}
+
+header>nav>ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    list-style: none;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    transition: all 0.3s;
+}
+
+header a:hover {
+    border: 2px solid #fff;
+    color: black; 
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.home-page-section {
+    background-image: url(./Images/HomePageVariation.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: white;
+    font-size: 95px;
+    margin-bottom: 20px;
+}
+
+section p {
+    width: 390px;
+    color: white;
+    font-size: 17px;
+}
+
+.companies-page-section h2 {
+    font-size: 59px;
+    color: white;
+    padding: 200px;
+}
+
+.companies-page-section {
+    height: 100vh;
+}
+
+.companies-page-section>.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.companies-page-section>.links> p {
+    color: black; 
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 170px;
+}
+
+.companies-page-section>.links-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companies.spacex {
+    background-image: url(./Images/spaceX.webp);
+}
+
+.companies.nasa {
+    background-image: url(./Images/Nasa.jpg);
+}
+
+.companies.blue-origin {
+    background-image: url(./Images/blue-origin.webp);
+}
+
+.companies.spacex,
+.companies.nasa,
+.companies.blue-origin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid rgba(68, 68, 68, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(30px);  
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    margin: 0;
+    height: 85vh;
+    width: 470px; 
+    transition: transform 0.3s;
+}
+
+.companies.spacex > a,
+.companies.nasa > a,
+.companies.blue-origin > a {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 6px 10px 6px 10px ;
+    border: 2px solid rgba(68, 68, 68, 0.5);
+    border-radius: 6px;
+    backdrop-filter: blur(30px);
+    margin-top: 150px;
+    font-size: 24px;
+}
+
+.companies.spacex > a:hover,
+.companies.nasa > a:hover,
+.companies.blue-origin > a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.companies.spacex:hover,
+.companies.nasa:hover,
+.companies.blue-origin:hover {
+    box-shadow: 10px 20px 25px rgba(243, 147, 147, 0.5); 
+}
+
+.map-page-section{
+    background-image: url(./Images/astro6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.map-page-section > div{
+    margin-left: 50px;
+}
+
+.map-page-section > div > h2{
+    color: #fff;
+    padding-top: 150px;
+    font-size: 60px;
+}
+
+.map-page-section > div > p{
+    width: 650px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.map-page-section > div > a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-left: 150px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.map-page-section > div > a:hover {
+    border: 2px solid #fff;
+    color: black; 
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.news h3 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.news a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #0077b6;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.news a:hover {
+    background-color: #005a93;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 40vh;
+    color: #fff;
+}
+
+footer > ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+}
+
+footer > .socialIcons{
+    padding-top: 20px;
+}
+
+footer > ul > li > a{
+    padding: 10px;
+    list-style: none;
+    color: #fff;
+    font-size: 28px;
+}
+
+footer > ul > li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer > p{
+    padding-top: 25px;
+    font-size: 14px;
+}

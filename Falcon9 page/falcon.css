@@ -1,0 +1,251 @@
+body {
+    max-width: 1536px;
+    max-height: 703px;
+    margin: 0 auto;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    left: 1;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.logo{
+    padding-left: 15px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding-right: 15px;
+}
+
+header a {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    font-size: 1.5em;
+}
+
+.info .info-bg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 5em;
+}
+
+.wrapper h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.wrapper p{
+    font-size: 20px;
+}
+
+.info,
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overview {
+    background-color: black;
+    color: #fff;
+}
+
+.overview>div {
+    margin: 35px 25px;
+}
+
+.overview>div>ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.overview>div>.number {
+    font-size: 7.5em;
+    list-style: none;
+    gap: 1em;
+    text-align: center;
+}
+
+.overview>div>.text {
+    font-size: 1.1em;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.rocket-info {
+    background-image: url(../Images/SpaceX/Falcon9/WebsiteF9Fairings_Lines_Desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.rocket-info>p {
+    width: 45%;
+    font-size: 18px;
+    margin-left: 70px;
+    padding-top: 140px;
+}
+
+.rocket-falcon {
+    background-image: url(../Images/SpaceX/Falcon9/WebsiteF9Fairings_Render_Desktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.rocket-falcon>div {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.rocket-falcon>div>h2 {
+    font-size: 46px;
+    margin-top: 0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+td {
+    border-bottom: 1px solid #3a3939;
+    text-align: left;
+    padding: 20px;
+}
+
+td:nth-child(even) {
+    text-align: right;
+
+}
+
+td>span {
+    color: #868686;
+}
+
+.flight {
+    background-image: url(../Images/SpaceX/Falcon9/F9_2.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.flight > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    height: 100%;
+    color: #fff;
+    font-size: 1.7em;
+    padding-left: 50px;
+}
+
+.flight > div > p , h2{
+    margin: 0;
+}
+
+.flight > div > p{
+    font-size: 16px;
+}
+
+.engine {
+    background-image: url(../Images/SpaceX/Falcon9/Merlin.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.engine>div {
+    margin-left: 100px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.engine>div>p {
+    width: 550px;
+    font-size: 17px;
+}
+
+.engine>div>h2 {
+    font-size: 46px;
+    margin-top: 0;
+}
+
+.album{
+    height: 90vh;
+    
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.album-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.album-nav > span{
+    padding: 0 50px 0 50px;
+    font-size: 26px;
+}
+
+.album-nav > p{
+    margin: 0;
+}

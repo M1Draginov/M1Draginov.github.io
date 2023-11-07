@@ -1,0 +1,433 @@
+body{
+    max-width: 1536px;
+    max-height: 703px;
+    margin: 0 auto;
+}
+
+.icon{
+    color: red;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+main .nav{
+    display: flex;
+    justify-content: center;
+    background-color: #17171b;
+}
+
+main .nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: #fff;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nasa-main {
+    position: relative;
+    height: 100vh;
+}
+
+.nasa-main .gradient-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)); 
+}
+
+.nasa-main .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    padding-left: 100px;
+}
+
+.nasa-main .text h2 {
+    font-size: 80px; 
+    margin: 0;
+}
+
+.nasa-main .text p {
+    font-size: 22px; 
+    color: #b9b9bb;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1{
+    height: 100vh; 
+    position: relative;
+}
+
+.space-stations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.space-stations .title{
+    padding: 0 0 1.5em  4.5em;
+}
+
+.title h2{
+    font-size: 2.5em;
+}
+
+.title p{
+    font-size: 1.1em;
+}
+
+.stations{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.station{
+    width: 450px;
+    height: 300px;
+}
+
+.stations h3{
+    font-size: 20px;
+}
+
+.stations p{
+    font-size: 18px;
+}
+
+.stations a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cards p{
+    font-size: 14px;
+    padding: 20px 0 5px 40px;
+}
+
+.cards h2{
+    font-size: 35px;
+    padding-left:40px;
+} 
+
+.card-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 300px;
+    height: 90vh;
+    margin: 10px; 
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
+
+.content a {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    padding: 0 0 25px 20px;
+}   
+
+.twins{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px 70px;
+    gap: 40px;
+    position: relative;
+}
+
+.twins div{
+    height: 500px;
+    width: 600px;
+}
+
+.commercial .commercial-btn{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 40px;
+    width: 90%;
+    border-bottom: 1px solid gray;
+}
+
+.commercial .commercial-btn button{
+    border: none;
+    border-bottom: 3px solid black; 
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 35px 0 10px 0;
+    margin-right: 35px;
+}
+
+.button-underline {
+    color: #b9b9bb;
+}
+
+.twins h3{
+    font-size: 24px;
+}
+
+.twins h2{
+    font-size: 52px;
+    margin: 0;
+}
+
+.twins p{
+    font-size: 18px;
+    line-height: 1.5;  
+}
+
+.twins .primary{
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.twins a{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.twins .icon{
+    font-size: 20px;
+
+}
+
+.twins .img-info{
+    font-size: 14px;
+}
+
+.twins .spaceships-rocket{
+    height: 350px;
+    width: 620px;
+}
+
+.launch {
+    position: relative;
+    height: 100vh;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)); 
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 550px;
+    padding: 20px;
+    color: white;
+    padding-left: 5.5em;
+}
+
+.text h2 {
+    font-size: 60px; 
+}
+
+.text p {
+    font-size: 24px; 
+}
+
+.text a{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rock{
+    background-color: #fff;
+}
+
+.rock div h3{
+    font-size: 28px
+}
+
+.rock div a,
+.rock div .icon{
+    font-size: 20px;
+}
+
+#article2,
+#article3,
+#article-two,
+#article-three {
+    display: none;
+}
+
+.launch-two .gradient-overlay {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.2));
+}
+
+.launch-two .text h2 {
+    font-size: 50px; 
+}
+
+.launch-two .text p {
+    font-size: 22px; 
+}
+
+.launch-two .text a{
+    font-size: 23px;
+}
+
+.orion-home {
+    position: relative;
+    height: 100vh;
+}
+
+.orion-home .gradient-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)); 
+}
+
+.orion-home .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    margin-left: 45px;
+}
+
+.orion-home .text h2 {
+    font-size: 54px; 
+}
+
+.orion-home .text p {
+    font-size: 20px; 
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    height: 70vh;
+    color: #fff;
+    background-color: black;
+}
+
+.logo{
+    height: 55px;
+    padding: 20px 0 0 45px ;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0 45px 35px 45px;
+}
+
+.link-info{
+    width: 25%;
+}
+
+.link-info h3{
+    font-size: 25px;
+}
+
+.link-info p{
+    font-size: 17px;
+    color: #b9b9bb;
+}
+
+.link-info a{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.link-info .join{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.links ul li{
+    list-style: none;
+    padding-bottom: 14px;
+}
+
+.link-info-two ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}

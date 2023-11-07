@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+
+<body>
+    <article>
+        <section class="info">
+            <h1>Destination</h1>
+            <form id="create-destination-form">
+                <input id="task-id" type="hidden" />
+                <div id="destination">
+                    <div class="form-control-destination">
+                        <label for="from">From:</label>
+                        <select id="from">
+                            <option value="Earth">Earth</option>
+                           
+                        </select>
+                    </div>
+                    <div class="form-control-destination">
+                        <label for="to">To:</label>
+                        <select id="to">
+                            <option value="Mercury">Mercury</option>
+                            <option value="Venus">Venus</option>
+                            <option value="Mars">Mars</option>
+                            <option value="Jupiter">Jupiter</option>
+                            <option value="Saturn">Saturn</option>
+                            <option value="Uranus">Uranus</option>
+                            <option value="Neptune">Neptune</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <label for="company">Company:</label>
+                    <select id="company">
+                        <option value="SpaceX">SpaceX</option>
+                        <option value="NASA">NASA</option>
+                        <option value="Blue Origin">Blue Origin</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="rocket">Rocket:</label>
+                    <select id="rocket">
+
+                        <!--Maybe i don't nned this options !-->
+                        <option value="Falcon9">Falcon9</option>
+                        <option value="Super Heavy">Super Heavy</option>
+                        <option value="Starship">Starship</option>
+
+                        <option value="Saturn V">Saturn V</option>
+                        <option value="Atlas V">Atlas V</option>
+                        <option value="Delta IV">Delta IV</option>
+                        <option value="SLS">SLS</option>
+                        <option value="Orion">Orion</option>
+
+                        <option value="New Shepard">New Shepard</option>
+                        <option value="New Glenn">New Glenn</option>
+                        <option value="Blue Moon">Blue Moon</option>
+                    </select>
+                </div>
+
+                <div id="passengers-number" class="form-control">
+                    <label for="passengers">Passengers:</label>
+                    <input id="passengers" type="number" placeholder="Enter numbers of passengers..."  />
+                </div>
+                <div id="cargo-number" class="form-control">
+                    <label for="cargo">Cargo:</label>
+                    <input id="cargo" type="number" placeholder="Enter your cargo count..." />
+                </div>
+
+                <div class="form-control">
+                    <label for="description">Description:</label>
+                    <textarea id="description" placeholder="Task description..." ></textarea>
+                </div>
+
+                <div class="form-control">
+                    <input type="button" id="create-task-btn" value="Create Task" />
+                </div>
+            </form>
+        </section>
+
+        <section class="solar-system">
+            <img src="../Images/stars2.jpg" alt="">
+
+            <div class="sun"></div>
+
+            <div class="mercury-outline">
+                <div class="mercury">
+                     <p>Mercury</p> 
+        
+                </div>
+            </div>
+
+            <div class="venus-outline-1">
+                <div class="venus">
+                    <p>Venus</p>
+                </div>
+            </div>
+
+            <div class="earth-outline-1">
+                <div class="earth">
+                    <div class="earth-circle">
+                        <div class="earth-inner"></div>
+                    </div>
+                    <p>Earth</p>
+                </div>
+            </div>
+
+            <div class="mars-outline-1">
+                <div class="mars">
+                    <p>Mars</p>
+                </div>
+            </div>
+
+            <div class="jupiter-outline-1">
+                <div class="jupiter">
+                    <p>Jupiter</p>
+                </div>
+            </div>
+
+            <div class="saturn-outline-1">
+                <div class="saturn">
+                    <p>Saturn</p>
+                </div>
+            </div>
+
+            <div class="uranus-outline-1">
+                <div class="uranus">
+                    <p>Uranus</p>
+                </div>
+            </div>
+
+            <div class="neptune-outline-1">
+                <div class="neptune">
+                    <p>Neptune</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="output">
+            <h3 class="preview">Preview</h3>
+        </section>
+    </article>
+    
+    <script src="./map.js"></script>
+</body>
+
+</html>
